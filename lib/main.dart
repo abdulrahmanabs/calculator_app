@@ -66,8 +66,6 @@ class _MainAppState extends State<MainApp> {
     }
 
     void equalButton() {
-      print(screenHeight);
-      print(screenWidth);
       String finaluserinput = userInput;
       finaluserinput = userInput.replaceAll('x', '*');
       Parser p = Parser();
